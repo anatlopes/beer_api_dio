@@ -1,9 +1,5 @@
 package one.digitalinnovation.beerstock.builder;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.Builder;
 import one.digitalinnovation.beerstock.dto.BeerDTO;
 import one.digitalinnovation.beerstock.enums.BeerType;
@@ -15,7 +11,7 @@ public class BeerDTOBuilder {
     private Long id = 1L;
 
     @Builder.Default
-    private String name = "Brahma";
+    private String name = "Budweiset";
 
     @Builder.Default
     private String brand = "Ambev";
